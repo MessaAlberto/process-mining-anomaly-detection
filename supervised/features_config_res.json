@@ -1,0 +1,30 @@
+{
+  "num_cols": [
+    "res_given_act_prob",
+    "act_given_res_prob",
+    "res_given_prev_act_curr_act_prob",
+    "res_given_curr_act_next_act_prob",
+    "trace_pos",
+    "res_loop_context_prob",
+    "res_repeat_given_act_pos_bin_prob",
+    "res_repeat_burst_len",
+    "res_repeat_last_5",
+    "res_trace_ratio",
+    "res_swap_local_gain",
+    "res_triplet_prob",
+    "delta_t",
+    "res_idle_time"
+  ],
+  "cat_schema_keys": [
+    "act"
+  ],
+  "extra_cat_cols": [
+    "res_act_pair",
+    "act_transition",
+    "handover"
+  ],
+  "res_num_cols": [],
+  "res_extra_cat_cols": [],
+  "include_raw_resource": false,
+  "encoding": "TargetEncoder"
+}

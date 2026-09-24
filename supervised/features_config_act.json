@@ -1,0 +1,30 @@
+{
+  "num_cols": [
+    "swap_local_gain",
+    "trans_in_prob",
+    "triplet_prob",
+    "act_given_prev_res_curr_res_prob",
+    "act_given_curr_res_next_res_prob",
+    "act_repeat_given_res_pos_bin_prob",
+    "repeat_burst_len",
+    "act_repeat_last_5",
+    "delta_t",
+    "res_transition_out_prob",
+    "res_workload_day_norm",
+    "trace_pos"
+  ],
+  "cat_schema_keys": [
+    "act"
+  ],
+  "extra_cat_cols": [
+    "triplet",
+    "trans_in",
+    "trans_out",
+    "act_res_pair",
+    "res_transition"
+  ],
+  "res_num_cols": [],
+  "res_extra_cat_cols": [],
+  "include_raw_resource": false,
+  "encoding": "TargetEncoder"
+}

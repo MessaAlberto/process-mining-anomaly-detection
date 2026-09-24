@@ -1,0 +1,30 @@
+{
+  "num_cols": [
+    "act_delta_t_percentile",
+    "delta_t",
+    "hour_cos",
+    "z_score_act",
+    "cum_t",
+    "momentum_ratio",
+    "trace_pos",
+    "hour_sin",
+    "day_sin",
+    "act_rework_count"
+  ],
+  "cat_schema_keys": [
+    "act"
+  ],
+  "extra_cat_cols": [
+    "act_transition"
+  ],
+  "res_num_cols": [
+    "res_act_freq",
+    "z_score_act_res",
+    "res_workload_day"
+  ],
+  "res_extra_cat_cols": [
+    "handover"
+  ],
+  "include_raw_resource": true,
+  "encoding": "TargetEncoder"
+}
